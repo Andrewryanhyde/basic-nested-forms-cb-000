@@ -1,6 +1,6 @@
 <%= form_for @person do |f| %>
   <%= f.label :name %>
-  <%= f.text_label :name %>
+  <%= f.text_field :name %>
 
   <%= f.fields_for :addresses do |address| %>
     <%= address.label :street_address_1 %>
